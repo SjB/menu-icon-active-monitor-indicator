@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "sjb.menu-icon-active-monitor-indicator",
+    "name": "Omarchy menu icon active monitor indicator",
+    "version": "1.0.0",
+    "author": "sjb",
+    "description": "Omarchy menu icon, accent on the focused monitor",
+    "kinds": [
+        "bar-widget"
+    ],
+    "entryPoints": {
+        "barWidget": "BarWidget.qml"
+    },
+    "barWidget": {
+        "displayName": "Omarchy menu icon",
+        "description": "Menu icon; accent color on the focused monitor",
+        "category": "Compositor",
+        "allowMultiple": false
+    }
+}
